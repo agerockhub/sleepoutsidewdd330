@@ -1,4 +1,4 @@
-import{r as s}from"./utils-DeOcxcF7.js";import{P as i}from"./ProductData-CmOqROhD.js";function c(t){return`
+import{r as s}from"./utils-DeOcxcF7.js";import{P as i}from"./ProductData-CByqJGXb.js";function c(t){return`
     <li class="product-card">
       <a href="product_pages/?product=${t.Id}">
         <img
