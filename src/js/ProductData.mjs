@@ -2,7 +2,7 @@ function convertToJson(res) {
   if (res.ok) {
     return res.json();
   } else {
-    throw new Error("Bad Response");
+    throw new Error('Bad Response');
   }
 }
 
@@ -13,7 +13,7 @@ export default class ProductData {
   }
 
   getData() {
-    return fetch(this.path)
+    return fetch(`json/${this.category}.json`)
       .then(convertToJson)
       .then((data) => data);
   }
